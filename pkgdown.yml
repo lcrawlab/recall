@@ -1,0 +1,9 @@
+pandoc: 3.1.11
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  basic-usage: basic-usage.html
+last_built: 2024-09-25T20:52Z
+urls:
+  reference: https://lcrawlab.github.io/callback/reference
+  article: https://lcrawlab.github.io/callback/articles

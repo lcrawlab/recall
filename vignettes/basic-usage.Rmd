@@ -1,0 +1,73 @@
+---
+title: "Basic Usage on PBMC3k Data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{basic-usage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+knitr::opts_chunk$set(eval = FALSE)
+
+```
+
+```{r setup}
+suppressPackageStartupMessages({
+library(Seurat)
+library(SeuratData)
+library(recall)
+})
+```
+
+
+First, we use the `SeuratData` data package to first download and then load
+2700 PBMCs. The loaded `SeuratObject`, `pbmc3k`, is from an old version of 
+`Seurat`, and so we update the object to v5.
+
+```{r load_data}
+set.seed(123)
+
+SeuratData::InstallData("pbmc3k")
+data("pbmc3k")
+
+pbmc3k <- UpdateSeuratObject(pbmc3k)
+```
+
+Now, we use `Seurat` to perform the usual preprocessing steps that are performed prior to clustering.
+
+```{r preprocessing}
+pbmc3k <- NormalizeData(pbmc3k)
+pbmc3k <- FindVariableFeatures(pbmc3k)
+pbmc3k <- ScaleData(pbmc3k)
+pbmc3k <- RunPCA(pbmc3k)
+pbmc3k <- FindNeighbors(pbmc3k)
+pbmc3k <- RunUMAP(pbmc3k, dims = 1:10)
+```
+
+The `recall` algorithm can be run with a single function call as a drop-in
+replacement for the `Seurat` function `FindClusters`.
+
+```{r run_recall}
+pbmc3k <- FindClustersRecall(pbmc3k)
+```
+
+The `recall`  clusters are set to the idents of the `SeuratObject` that is
+returned by `FindClustersRecall`
+
+```{r plot_umap}
+DimPlot(pbmc3k)
+```
+
+Cluster labels from `FindClustersRecall` care stored in the metadata in the
+column `pbmc3k@meta.data$recall_clusters`.
+
+```{r plot_umap2}
+DimPlot(pbmc3k, group.by = "recall_clusters")
+```

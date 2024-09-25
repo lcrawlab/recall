@@ -1,0 +1,36 @@
+Package: recall
+Title: Calibrated clustering with artificial variables to avoid over-clustering in single-cell RNA-sequencing
+Version: 0.0.0
+Authors@R: 
+    person("Alan", "DenAdel", , "alan_denadel@brown.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7985-6789"))
+Description: recall (Calibrated Clustering with Artificial Variables) is a method for protecting
+ against over-clustering by controlling for the impact of double-dipping. The approach 
+    can be applied to any clustering algorithm (implemented are the Louvain and Leiden algorithms with
+    plans forK-means, and hierarchical clustering algorithms). The method provides state-of-the-art
+    clustering performance and can rapidly analyze large-scale scRNA-seq studies and is 
+    compatible with the Seurat library.
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    Matrix,
+    Seurat (>= 5.0.1),
+    SingleCellExperiment,
+    scDesign3,
+    SummarizedExperiment,
+    MASS,
+    fitdistrplus,
+    lamW,
+    knockoff,
+    future,
+    stats,
+    cli,
+    stringr,
+    countsplit
+License: MIT + file LICENSE
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://lcrawlab.github.io/recall/

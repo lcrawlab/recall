@@ -1,20 +1,20 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>https://lcrawlab.github.io/callback/404.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/LICENSE-text.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/LICENSE.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/articles/basic-usage.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/articles/index.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/authors.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/index.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/FindClustersCountsplit.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/FindClustersRecall.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/compute_knockoff_filter.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/estimate_negative_binomial.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/estimate_negative_binomial_copula.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/estimate_zi_poisson.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/get_seurat_obj_with_artificial_variables.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/index.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/rzipoisson.html</loc></url>
-<url><loc>https://lcrawlab.github.io/callback/reference/seurat_workflow.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/404.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/LICENSE-text.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/LICENSE.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/articles/basic-usage.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/articles/index.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/authors.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/index.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/FindClustersCountsplit.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/FindClustersRecall.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/compute_knockoff_filter.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/estimate_negative_binomial.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/estimate_negative_binomial_copula.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/estimate_zi_poisson.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/get_seurat_obj_with_artificial_variables.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/index.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/rzipoisson.html</loc></url>
+<url><loc>https://lcrawlab.github.io/recall/reference/seurat_workflow.html</loc></url>
 </urlset>
 

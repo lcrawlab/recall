@@ -7,7 +7,7 @@
 
 Standard single-cell RNA-sequencing (scRNA-seq) pipelines nearly always include unsupervised clustering as a key step in identifying biologically distinct cell types. A follow-up step in these pipelines is to test for differential expression between the identified clusters. When algorithms over-cluster, downstream analyses will produce inflated P-values resulting in increased false discoveries.
 Here, we present `recall` (Calibrated Clustering with Artificial Variables): a new method for protecting against over-clustering by controlling for the impact of double-dipping.
-Importantly, our approach can be applied to any clustering algorithm (implemented here are the Louvain, Leiden, K-means, and hierarchical clustering algorithms).
+Importantly, our approach can be applied to any clustering algorithm (implemented here are the Louvain and Leiden algorithms with plans to implement the K-means and hierarchical clustering algorithms).
 `recall` provides state-of-the-art clustering performance and can rapidly analyze large-scale scRNA-seq studies, even on a personal laptop.
 
 ## Installation

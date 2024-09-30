@@ -1,7 +1,7 @@
 # recall (Calibrated Clustering with Artificial Variables) <img src="man/figures/recall_logo.png" align="right" alt="" width="120"/>
 
 [![R CMD check](https://github.com/lcrawlab/recall/actions/workflows/check-standard.yml/badge.svg)](https://github.com/lcrawlab/recall/actions/workflows/check-standard.yml)
-[![Docker Image CI](https://github.com/lcrawlab/recal/actions/workflows/docker-image.yml/badge.svg)](https://github.com/lcrawlab/recall/actions/workflows/docker-image.yml)
+[![Docker Image CI](https://github.com/lcrawlab/recall/actions/workflows/docker-image.yml/badge.svg)](https://github.com/lcrawlab/recall/actions/workflows/docker-image.yml)
 
 ## Introduction
 

@@ -66,7 +66,7 @@ The `recall` algorithm uses the guiding principle that well-calibrated clusters 
 We use this rule to iteratively re-cluster cells until the inferred clusters are well-calibrated and the observed differences in expression between groups are not due to the effects of double-dipping.
 
 ## Relevant Citations
-`recall` is currently on the bioRxiv, [here](https://www.biorxiv.org/content/10.1101/2024.03.08.584180v1).
+`recall` is now published in AJHG, [here](https://www.cell.com/ajhg/abstract/S0002-9297(25)00061-8).
 
 A. DenAdel, M. Ramseier, A. Navia, A. Shalek, S. Raghavan, P. Winter, A. Amini, and L. Crawford. A knockoff calibration method to avoid over-clustering in single-cell RNA-sequencing. _bioRxiv_.
 

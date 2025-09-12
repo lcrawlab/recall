@@ -68,7 +68,7 @@ We use this rule to iteratively re-cluster cells until the inferred clusters are
 ## Relevant Citations
 `recall` is now published in AJHG, [here](https://www.cell.com/ajhg/abstract/S0002-9297(25)00061-8).
 
-A. DenAdel, M. Ramseier, A. Navia, A. Shalek, S. Raghavan, P. Winter, A. Amini, and L. Crawford. A knockoff calibration method to avoid over-clustering in single-cell RNA-sequencing. _bioRxiv_.
+A. DenAdel, M. Ramseier, A. Navia, A. Shalek, S. Raghavan, P. Winter, A. Amini, and L. Crawford. A knockoff calibration method to avoid over-clustering in single-cell RNA-sequencing. _AJHG_.
 
 ## Questions and Feedback
 For questions or concerns with `recall`, please contact

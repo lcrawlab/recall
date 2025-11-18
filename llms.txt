@@ -1,4 +1,4 @@
-# recall (Calibrated Clustering with Artificial Variables)
+# recall (Calibrated Clustering with Artificial Variables)![](reference/figures/recall_logo.png)
 
 [![R CMD
 check](https://github.com/lcrawlab/recall/actions/workflows/check-standard.yml/badge.svg)](https://github.com/lcrawlab/recall/actions/workflows/check-standard.yml)

@@ -3,7 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   basic-usage: basic-usage.html
-last_built: 2025-11-18T06:19Z
+last_built: 2025-11-18T06:21Z
 urls:
   reference: https://lcrawlab.github.io/recall/reference
   article: https://lcrawlab.github.io/recall/articles
